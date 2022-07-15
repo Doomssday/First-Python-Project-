@@ -9,7 +9,7 @@ def game():
     choice = input()
 
     if choice.lower() == "y":
-        print("Great, you're now playing rock (r), paper(p), scissors(s). Click enter to proceed.")
+        print("Great, you're now playing rock (r), paper(p), scissors(s). Press enter to proceed.")
         answer = input()
         start=True
 
