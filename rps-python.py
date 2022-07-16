@@ -66,3 +66,9 @@ def game():
         
 
 game()
+
+again = str(input("Do you want to play again (y/n)?: "))
+if again == "y":
+    game()
+else:
+    sys.exit(0)
